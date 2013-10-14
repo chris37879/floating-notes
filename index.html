@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>       <html class="no-js oldie"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9]>          <html class="no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->  <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!-- TODO: Set page title -->
+    <title>Untitled Page</title>
+
+    <!-- TODO: Set page description. -->
+    <meta name="description" content="">
+
+    <!-- TODO: Change Favicon. -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Webfonts -->
+    <!-- If you are using webfonts, note that IE < 9
+            doesn't behave if you have all the font
+            files loaded from one link tag (the way
+            google webfonts does it by default) to
+            solve this, split the link into a few
+            more, including no more than 3 variants
+            in a link tag -->
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+    html, body{
+        width:100%;
+        height:100%;
+        position: relative;
+        background: black;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        font:'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+        font-weight: 300;
+        font-size: 0.9em;
+    }
+    h1,h2,h3,h4,h5,h6{
+        margin: 0;
+    }
+    #content{
+        color: white;
+        background: rgba(255, 255, 255, 0.2);
+        position: relative;
+        z-index: 100;
+        width: 1000px;
+        margin: 0 auto;
+        min-height: 100px;
+        padding:1em;
+    }
+    #note-canvas{
+        position: fixed;
+        top:0;
+        left:0;
+        z-index: 0;
+    }
+    </style>
+    <!-- Besides html5shiv and async analytics, all other scripts go before </body> -->
+    <script src="scripts/lib/html5shiv.js"></script>
+
+    <!-- Google Analytics
+    <script>
+    //TODO: Change UA-XXXXX-X to your Google Analytics Site ID or remove this block.
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+    -->
+</head>
+
+<body>
+<section id="content">
+<h1>Hello, World!</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet ultrices justo. Cras in velit cursus, condimentum mauris sed, aliquet augue. Quisque in massa vitae nunc lacinia consequat. Ut scelerisque leo est, sed tempor erat elementum vitae. Ut sagittis iaculis porttitor. Quisque sit amet semper felis. Fusce purus nisl, placerat nec venenatis sed, elementum vel tortor. Integer nec ultricies eros. Ut sapien metus, condimentum vel nibh in, commodo mollis mauris. Fusce sit amet lectus ultrices tortor semper feugiat. Cras sodales tempus justo, in lacinia lacus molestie nec. Morbi dui risus, volutpat ut tincidunt eu, laoreet et massa. Pellentesque et ligula in elit placerat placerat sodales vel neque. Curabitur pulvinar semper fermentum. Quisque sapien nisi, dapibus non consequat ac, venenatis vitae nibh.</p>
+
+<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean turpis augue, suscipit nec metus ut, consequat sodales nisi. Maecenas a varius velit, in tristique neque. Proin non enim at mi volutpat rhoncus. Morbi tempor tristique sem, a sagittis neque ultrices quis. Fusce ac nibh diam. Sed consectetur enim sapien, in sollicitudin est vulputate sed. Nam at felis est. Quisque blandit purus ante, eu luctus lectus dapibus vitae. Morbi lacinia imperdiet vestibulum. Etiam bibendum est congue urna blandit tempor.</p>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam pretium dui a velit malesuada commodo. Ut vel dolor turpis. Mauris sit amet mi id neque faucibus porttitor eget sed sapien. Sed pellentesque tempor felis, quis pharetra mauris suscipit porta. Pellentesque hendrerit mi id sagittis accumsan. Ut pharetra lacus et cursus iaculis.</p>
+
+<p>Nullam aliquam nisl vel tincidunt tincidunt. Nulla luctus augue lorem, sed porttitor turpis sagittis sit amet. Morbi euismod nibh eu gravida molestie. Morbi ac porttitor diam, vel malesuada massa. Duis sollicitudin mauris eget nisl bibendum, id congue lacus interdum. Donec ac magna placerat lectus condimentum vehicula. Phasellus ac semper mi, sed mattis lacus. Maecenas leo ante, hendrerit nec pharetra et, lacinia ut dui. Fusce vitae orci eget elit imperdiet convallis nec non orci. Quisque in eleifend nulla. Duis dui odio, aliquet dignissim pellentesque sit amet, pulvinar ut lectus. Nulla diam mauris, ornare eu purus non, rutrum sagittis erat.</p>
+
+<p>Proin rhoncus elit vel sapien eleifend, nec cursus lorem dictum. Nullam nec malesuada diam. Mauris odio nulla, facilisis nec facilisis sed, iaculis non dui. Phasellus nec condimentum magna. Integer faucibus sed nisi et egestas. Ut in congue risus. Nam ac euismod urna. Integer diam justo, fringilla in diam non, eleifend porta arcu. Cras ornare placerat mauris, vitae mollis nunc tempor a. Integer a ornare elit, at ullamcorper magna. Vestibulum sodales commodo egestas. Nunc vitae tincidunt nibh, id lacinia mi. Phasellus quis cursus nunc. Proin sodales mollis ante non condimentum. Maecenas congue magna at ligula sollicitudin, sed iaculis orci mattis. Morbi dapibus ultrices accumsan.</p>
+</section>
+
+<!-- Google jQuery cdn fallback to local -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="scripts/lib/jquery.min.js"><\/script>')</script>
+<!-- Scripts at the bottom for speed -->
+<script src="scripts/lib/three.js"></script>
+<script src="scripts/lib/stats.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
